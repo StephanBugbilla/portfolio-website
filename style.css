@@ -98,6 +98,7 @@ body {
     z-index: 1;
     font-size: 30px;
     color: white;
+
     
     
 }
@@ -171,9 +172,10 @@ nav{
 }
 
 .ham-menu.active span:nth-child(1){
-    top: 25px;
+    top: 50%;
     left: 3px;
-    transform: rotate(135deg);
+    transform: rotate(45deg);
+    
 
 }
 
@@ -183,9 +185,9 @@ nav{
 }
 
 .ham-menu.active span:nth-child(3) {
-    top: 25px;
+    top: 50%;
     left: 3px;
-    transform: rotate(-135deg);
+    transform: rotate(-45deg);
 }
 
 .top-right-button{
@@ -290,3 +292,4 @@ nav{
     max-height: 100%;
     object-fit: contain;
 }
+
